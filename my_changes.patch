@@ -1,0 +1,51 @@
+From 9a81d630a6bb13d96478672c1ee6b2257644df99 Mon Sep 17 00:00:00 2001
+From: Deven Shinde <devenshinde16@gmail.com>
+Date: Tue, 25 Mar 2025 04:27:08 +0530
+Subject: [PATCH] card.css changes
+
+---
+ shiptivitas-1/src/Card.css | 21 +++++++++------------
+ 1 file changed, 9 insertions(+), 12 deletions(-)
+
+diff --git a/shiptivitas-1/src/Card.css b/shiptivitas-1/src/Card.css
+index 6fec4e4..3f1b475 100644
+--- a/shiptivitas-1/src/Card.css
++++ b/shiptivitas-1/src/Card.css
+@@ -1,25 +1,22 @@
+ .Card {
+-  background-color: lightgrey;
+-  font-size: 12px;
+-  padding: 20px;
+-  margin-bottom: 10px;
++  padding: 12px;
++  margin: 8px 0;
++  border-radius: 5px;
++  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
++  transition: background-color 0.3s ease-in-out;
+ }
+ 
+ .Card-grey {
+-  background-color: rgba(167, 158, 158, 0.671);
+-  color: black;
++  background-color: grey;
++  color: white;
+ }
+ 
+ .Card-blue {
+-  background-color: skyblue;
++  background-color: blue;
+   color: white;
+ }
+ 
+ .Card-green {
+-  background-color: rgb(150, 190, 150);
++  background-color: green;
+   color: white;
+ }
+-
+-.Card-title {
+-  font-weight: bold;
+-}
+-- 
+2.47.1.windows.2
+
